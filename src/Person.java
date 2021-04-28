@@ -9,13 +9,13 @@ public class Person {
     private String emailAddress;
     private Address address = new Address();
 
-    public Person(String name, int phoneNumber, String emailAddress) {
-        String fName = name;
-        int phNumber = phoneNumber;
-        String eAddress = emailAddress;
-        System.out.println("name: " + fName);
-        System.out.println("phone number: " + phNumber);
-        System.out.println("email address: " + eAddress);
+    public Person(String myName, int myPhoneNumber, String myEmailAddress) {
+        String name = myName;
+        int phoneNumber = myPhoneNumber;
+        String emailAddress = myEmailAddress;
+        System.out.println("name: " + name);
+        System.out.println("phone number: " + phoneNumber);
+        System.out.println("email address: " + emailAddress);
     }
 
     static void PurchaseParkingPass() {
