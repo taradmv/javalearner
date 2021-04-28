@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
-public class Address{
+public class Address {
 
-        Scanner sc = new Scanner(System.in);
-        String street = sc.nextLine();
-        String city = sc.nextLine();
-        String state = sc.nextLine();
-        int postalCode = sc.nextInt();
-        String country = sc.nextLine();
+    private Scanner sc = new Scanner(System.in);
+    private String street = sc.nextLine();
+    private String city = sc.nextLine();
+    private String state = sc.nextLine();
+    private int postalCode = sc.nextInt();
+    private String country = sc.nextLine();
 
-    static void ValidateAsLabel(){
+    static void ValidateAsLabel() {
 
     }
 }
