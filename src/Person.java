@@ -9,6 +9,15 @@ public class Person {
     private String emailAddress;
     private Address address = new Address();
 
+    public Person(String name, int phoneNumber, String emailAddress) {
+        String fName = name;
+        int phNumber = phoneNumber;
+        String eAddress = emailAddress;
+        System.out.println("name: " + fName);
+        System.out.println("phone number: " + phNumber);
+        System.out.println("email address: " + eAddress);
+    }
+
     static void PurchaseParkingPass() {
 
     }
