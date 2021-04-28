@@ -7,7 +7,7 @@ public class Person {
     private String name;
     private int phoneNumber;
     private String emailAddress;
-    Address address = new Address();
+    private Address address = new Address();
 
     static void PurchaseParkingPass() {
 
