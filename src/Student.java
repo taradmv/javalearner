@@ -1,17 +1,13 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Student  {
+class Student extends Person {
+    private int studentNumber;
+    private int averageMark;
 
-    public static void main(String[] args){
-        int studentNumber ;
-        int averageMark ;
-        ArrayList<Person> people;
+    static void isEligibleToEnroll() {
     }
-    static void isEligibleToEnroll(){
 
-    }
-    static void getSeminarsTaken(){
-
+    static void getSeminarsTaken() {
     }
 }
