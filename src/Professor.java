@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
- public class Professor {
-
-        int salary;
-        ArrayList<Person> people;
+class Professor extends Person {
+    private int salary;
 }
